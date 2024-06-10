@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Lato", sans-serif;
 }
 main {
     margin-bottom: 40px;
@@ -29,6 +30,7 @@ main {
 p {
     margin: 2px 0;
     font-size: 14px;
+    font-weight: 400;
 }
 
 /*Spazi sezioni*/
@@ -36,15 +38,14 @@ p {
     margin: 32px 0;
 }
 
-ul {
-    margin: 24px 0;
-}
 
 /*Titolo*/
 .title-article {
     font-size: 34px;
     color: rgb(17, 17, 17);
     margin-bottom: 0;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /*Autore e data*/
@@ -74,7 +75,22 @@ ul {
     background-color: rgb(248, 248, 7);
 }
 
+
+
+ul {
+    margin: 24px 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*tabella*/
+table {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
 thead {
     background-color: rgb(53, 137, 206);
     color: rgb(255, 255, 255);
@@ -92,9 +108,11 @@ thead {
     width: 50%;
 }
 
+/*Footer*/
 footer {
     background-color: rgb(52, 52, 104);
     padding: 24px;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 12px;
 }

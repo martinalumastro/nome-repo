@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+/*Header*/
+.page-header {
+   margin:0;
+   background-color: rgb(114, 205, 205);
+   background-image: url(../img/pattern.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.logo, .article-page {
+    margin-left: 10%;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+    
+/*Main*/
+.title-article {
+    font-size: 34px;
+    color: rgb(17, 17, 17);
+}
+
+.author-article, .date-article {
+    color: rgb(78, 78, 78);
+}
+
+.author-article {
+    font-size: 14px;
+}
+
+.title span {
+    color: blue;
+}
+.date-article {
+    font-size: 12px;
+}
